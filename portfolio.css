@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+header {
+    background: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+nav {
+    background: #023e8a;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd60a;
+}
+section {
+    width: 85%;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+section h2 {
+    color: #0077b6;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #0077b6;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+section img {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #0077b6;
+    object-fit: cover;
+}
+ul {
+    margin-left: 20px;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+article {
+    background: #eef6ff;
+    padding: 20px;
+    border-left: 5px solid #0077b6;
+    border-radius: 8px;
+}
+#contact a {
+    color: #0077b6;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+form {
+    margin-top: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background: #0077b6;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #023e8a;
+}
+footer {
+    text-align: center;
+    background: #023e8a;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+hr {
+    border: none;
+    height: 1px;
+    background: #ddd;
+}
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 30px;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        width: 95%;
+    }
+
+    section img {
+        width: 150px;
+        height: 150px;
+    }
+}
